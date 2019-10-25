@@ -21,7 +21,7 @@ export class Client {
     return this.callServer("start-span-extract", data);
   }
 
-  async tartSpan(data: {
+  async startSpan(data: {
     name: string;
     reference: { id: string };
     relationship: "child_of" | "follows_from";
