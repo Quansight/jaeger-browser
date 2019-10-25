@@ -1,4 +1,4 @@
-# `jaeger-browser` <br> ![PyPI](https://img.shields.io/pypi/v/jaeger_browser?style=flat-square)
+# `jaeger-browser` <br> ![PyPI](https://img.shields.io/pypi/v/jaeger_browser?style=flat-square) ![npm](https://img.shields.io/npm/v/jaeger-browser?style=flat-square)
 
 
 This repo is to help you submit Jaeger traces from your browser. It is a workaround
