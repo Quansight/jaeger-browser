@@ -1,8 +1,8 @@
 # `jaeger-browser` <br> ![PyPI](https://img.shields.io/pypi/v/jaeger_browser?style=flat-square) ![npm](https://img.shields.io/npm/v/jaeger-browser?style=flat-square)
 
 
-This repo is to help you submit Jaeger traces from your browser. It is a workaround
-until they implement a browser client.
+This repo is to help you submit [Jaeger](https://www.jaegertracing.io/) traces from your browser. It is a workaround
+until [a browser client is implemented](https://github.com/jaegertracing/jaeger-client-node/issues/109).
 
 
 It contains a Python package that runs a REST API which submits traces locally.
@@ -13,8 +13,7 @@ It also contains a TypeScript library that connects to this REST API.
 If you want to use this alongside your Jupyter server, check out
 [`jupyter-jaeger`](https://github.com/Quansight/jupyter-jaeger). There is an example in that repo of starting a span in a kernel server side and then continueing it on the clien side.
 
-In turn, we use that to instrument [plotting interactive Vega visualizations
-with a Python backend](https://github.com/quansight/ibis-vega-transform).
+In turn, we use that to instrument [plotting interactive Vega visualizations with a Python backend](https://github.com/quansight/ibis-vega-transform).
 
 ## Limitations
 
