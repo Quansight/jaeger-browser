@@ -1,0 +1,22 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "jaeger_browser"
+author = "Saul Shanabrook"
+author-email = "saul@quansight.com"
+home-page = "https://github.com/Quansight/jaeger-browser"
+classifiers = ["License :: OSI Approved :: MIT License"]
+requires = [
+    "jaeger-client",
+    "uvicorn",
+    "starlette",
+    "mypy_extensions",
+    "typing_extensions"
+]
+description-file = "README.md"
+requires-python = ">=3.6"
+
+[tool.flit.scripts]
+jaeger-browser = "jaeger_browser:main"

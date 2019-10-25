@@ -1,0 +1,7 @@
+node_modules
+lib
+__pycache__
+*.egg-info
+yarn.lock
+*.tsbuildinfo
+dist
