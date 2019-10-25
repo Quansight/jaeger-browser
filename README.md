@@ -1,4 +1,4 @@
-# `jaeger-browser`
+# `jaeger-browser` <br> ![PyPI](https://img.shields.io/pypi/v/jaeger_browser?style=flat-square)
 
 
 This repo is to help you submit Jaeger traces from your browser. It is a workaround
@@ -33,7 +33,7 @@ First get the REST server installed and started:
 conda -c conda-forge install jaeger
 
 # Install the REST server
-pip install jaeger-browser
+pip install jaeger_browser
 
 # Start jaeger all in one
 jaeger-all-in-one
