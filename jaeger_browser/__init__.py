@@ -19,7 +19,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import JSONResponse
 
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 
 jaeger_config = jaeger_client.Config(
     config={"sampler": {"type": "const", "param": 1}, "logging": True},
