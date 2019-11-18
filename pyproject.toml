@@ -12,7 +12,7 @@ requires = [
     "jaeger-client",
     "uvicorn",
     "starlette",
-    "mypy_extensions",
+    "mypy-extensions",
     "typing_extensions"
 ]
 description-file = "README.md"
